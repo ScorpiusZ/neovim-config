@@ -39,6 +39,7 @@ Plug 'slashmili/alchemist.vim'
 Plug 'fishbullet/deoplete-ruby'
 
 "jsx surpport
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'mxw/vim-jsx'
 
 
