@@ -25,3 +25,6 @@ set lazyredraw
 
 colorscheme solarized
 set background=dark
+
+" Set 5 lines to the cursor - when moving vertically using j/k
+set scrolloff=5

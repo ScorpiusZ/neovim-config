@@ -38,6 +38,13 @@ Plug 'slashmili/alchemist.vim'
 "ruby surpport
 Plug 'fishbullet/deoplete-ruby'
 
+"jsx surpport
+Plug 'mxw/vim-jsx'
+
+
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+
 call plug#end()
 
 

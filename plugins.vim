@@ -55,3 +55,14 @@ map <leader>ga :Gwrite<cr>
 map <leader>grm :Git rm %<cr>
 map <leader>grs :Git reset %<cr>
 autocmd QuickFixCmdPost *grep* cwindow
+
+"
+"nerdtree
+"
+map <f2> :NERDTreeToggle<CR>
+
+"
+" jsx
+"
+let g:jsx_ext_required = 0
+
