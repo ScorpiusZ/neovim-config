@@ -18,3 +18,16 @@ imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 let g:fzf_layout = { 'down': '~30%'}
 
+
+"
+"neomake
+"
+autocmd! BufWritePost * Neomake
+
+"
+"vim-airline
+"
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
