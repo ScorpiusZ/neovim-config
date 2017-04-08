@@ -43,3 +43,15 @@ let g:UltiSnipsEditSplit="vertical"
 "
 let g:ag_working_path_mode="r"
 noremap <leader>f :Ag
+
+"
+"fugitive.vim
+"
+set diffopt +=vertical
+map <leader>gd :Gdiff<cr>
+map <leader>gst :Gstatus<cr>
+map <leader>gco :Gread<cr>
+map <leader>ga :Gwrite<cr>
+map <leader>grm :Git rm %<cr>
+map <leader>grs :Git reset %<cr>
+autocmd QuickFixCmdPost *grep* cwindow

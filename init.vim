@@ -6,7 +6,6 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'rking/ag.vim'
 
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-surround'
@@ -14,10 +13,12 @@ Plug 'tpope/vim-surround'
 
 "git
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 " Search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'rking/ag.vim'
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
