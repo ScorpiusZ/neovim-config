@@ -35,6 +35,11 @@ let g:airline_powerline_fonts = 1
 "ultisnips
 "
 let g:UltiSnipsExpandTrigger="<tab>"
-
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+"
+"ag.vim
+"
+let g:ag_working_path_mode="r"
+noremap <leader>f :Ag

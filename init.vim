@@ -6,6 +6,12 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'rking/ag.vim'
+
+Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-surround'
+
+
 "git
 Plug 'airblade/vim-gitgutter'
 
