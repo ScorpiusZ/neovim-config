@@ -28,3 +28,12 @@ set background=dark
 
 " Set 5 lines to the cursor - when moving vertically using j/k
 set scrolloff=5
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Files, backups and undo
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
