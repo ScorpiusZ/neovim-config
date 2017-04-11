@@ -16,6 +16,8 @@ inoremap <leader>s <esc>:w!<cr>a
 "visual all text
 noremap <leader>a ggVG
 
+noremap Y y$
+
 
 " Buffer mappings
 nmap <leader>d :bd<cr>
