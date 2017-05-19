@@ -17,6 +17,8 @@ imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 let g:fzf_layout = { 'down': '~30%'}
+" ignore files in .gitignore
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 
 "
