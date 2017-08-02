@@ -1,7 +1,7 @@
-###Neovim Config
+### Neovim Config
 
 
-###auto complete(using deoplete)
+### auto complete(using deoplete)
 **surpport languate**
 1. elixir
 2. ruby
