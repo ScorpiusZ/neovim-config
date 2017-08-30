@@ -56,7 +56,10 @@ function! BuildComposer(info)
   endif
 endfunction
 
+"markdown
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 
 call plug#end()
