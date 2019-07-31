@@ -2,7 +2,8 @@
 
 * Install [Vim Plug](https://github.com/junegunn/vim-plug)
 * Install [MarkDown](https://github.com/euclio/vim-markdown-composer)
-> run :healthcheck after install
+* Font [Power line](https://github.com/powerline/fonts)
+> run :checkhealth after install
 
 ### auto complete(using deoplete)
 **surpport languate**
