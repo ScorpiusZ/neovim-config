@@ -88,3 +88,18 @@ let g:tern#filetypes = [
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_new_list_item_indent = 2
 
+"
+" vim-go
+"
+let g:go_fmt_command = "goimports"
+let g:go_highlight_types = 1
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 
+let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
+
+
+"
+"markdown-preview
+"
+nmap <C-s> <Plug>MarkdownPreview
+nmap <M-s> <Plug>MarkdownPreviewStop
+nmap <C-p> <Plug>MarkdownPreviewToggle

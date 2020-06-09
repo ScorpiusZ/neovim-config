@@ -57,9 +57,8 @@ function! BuildComposer(info)
 endfunction
 
 "markdown
-Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
 
 " go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
