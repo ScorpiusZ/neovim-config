@@ -28,8 +28,12 @@ Plug 'honza/vim-snippets'
 " lint
 Plug 'neomake/neomake'
 
+"code navigation
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 "auto complete
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 
 "elixir surpport
 Plug 'elixir-lang/vim-elixir'
@@ -42,6 +46,8 @@ Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'mxw/vim-jsx'
 
+"yaml surpport
+Plug 'stephpy/vim-yaml'
 
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
