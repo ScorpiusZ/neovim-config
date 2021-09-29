@@ -37,6 +37,7 @@ let g:airline_powerline_fonts = 1
 "ultisnips
 "
 let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
@@ -93,6 +94,8 @@ let g:vim_markdown_new_list_item_indent = 2
 "
 let g:go_fmt_command = "goimports"
 let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
 autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 
 let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 
@@ -103,3 +106,7 @@ let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 nmap <C-s> <Plug>MarkdownPreview
 nmap <M-s> <Plug>MarkdownPreviewStop
 nmap <C-p> <Plug>MarkdownPreviewToggle
+
+"
+" coc
+"

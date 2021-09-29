@@ -1,0 +1,19 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+        "go",
+        "markdown"
+   ],
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      },
+      "disabled": {
+        "workspaceFolders": false
+      }    
+    }
+  }
+}
