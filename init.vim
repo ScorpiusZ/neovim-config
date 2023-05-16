@@ -41,11 +41,11 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 
 "ruby surpport
-Plug 'fishbullet/deoplete-ruby'
+"Plug 'fishbullet/deoplete-ruby'
 
 "jsx surpport
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-Plug 'mxw/vim-jsx'
+"Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+"Plug 'mxw/vim-jsx'
 
 "yaml surpport
 Plug 'stephpy/vim-yaml'
