@@ -70,6 +70,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 " go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+" copilot
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 
